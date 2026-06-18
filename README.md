@@ -24,6 +24,12 @@ Bu proje, teknik değerlendirme süreci kapsamında geliştirilmiş bir sipariş
 
 2. İndirdiğiniz klasördeki .sln uzantılı solution dosyasını Visual Studio ile açın.
 3. Proje içerisinde sabit bir veri seti (Mock Data) kullanılmıştır, herhangi bir veritabanı kurulumuna gerek yoktur.
-4. Üst menüden Start (Başlat) butonuna basarak projeyi anında çalıştırabilir ve test edebilirsiniz.
+4. E-posta Ayarları: Mail gönderim özelliğini test edebilmek için OrderService.cs dosyası içerisindeki (64. ve 66. satırlar) gönderici e-posta adresi ve şifre kısımlarını kendi bilgilerinizle güncellemeniz gerekmektedir:
+   ```csharp
+   // OrderService.cs
+   string gonderenMail = "mail@gmail.com";
+   string uygulamaSifresi = "uygulama_sifreniz"; // Gmail kullanıyorsanız "Uygulama Şifresi" oluşturmanız gerekir.
+   ```
+5. Üst menüden Start (Başlat) butonuna basarak projeyi anında çalıştırabilir ve test edebilirsiniz.
 
 **Geliştirici:** Ziya İpek
