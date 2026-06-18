@@ -19,7 +19,7 @@ Bu proje, teknik değerlendirme süreci kapsamında geliştirilmiş bir sipariş
 
 1. Bu projeyi bilgisayarınıza klonlayın veya `.zip` olarak indirin:
    ```bash
-   git clone [https://github.com/ziyaipek/OrderManagement.git](https://github.com/ziyaipek/OrderManagement.git)
+   git clone https://github.com/ziyaipek/OrderManagement.git
    ```
 
 2. İndirdiğiniz klasördeki .sln uzantılı solution dosyasını Visual Studio ile açın.
